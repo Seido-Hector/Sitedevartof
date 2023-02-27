@@ -356,65 +356,7 @@ footer {
   width: 42%;
 }* q
 /*  sessão equipe  */
-.teams .title::after {
-  content: "Especializada";
-}
-.teams .carousel .card {
-  background: #222;
-  border-radius: 6px;
-  padding: 25px 35px;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-.teams .carousel .card:hover {
-  background: #833ab4;
-}
-.teams .carousel .card img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid #833ab4;
-  transition: all 0.3s ease;
-}
-.teams .carousel .card:hover img {
-  border-color: #fff;
-}
-.teams .carousel .card .box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-}
-.teams .carousel .card:hover .box {
-  transform: scale(1.05);
-}
-.teams .carousel .card .text {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
-.owl-dots {
-  text-align: center;
-  margin-top: 20px;
-}
-.owl-dot {
-  width: 14px;
-  height: 14px;
-  outline: none !important;
-  border-radius: 50%;
-  border: 2px solid #833ab4 !important;
-  transition: all 0.3s ease;
-}
-.owl-dot.active {
-  width: 35px;
-  border-radius: 15px;
-}
-.owl-dot.active,
-.owl-dot:hover {
-  background: #833ab4 !important;
-}
+
 /*  sessão Contato  */
 .contact {
   background: #111;
