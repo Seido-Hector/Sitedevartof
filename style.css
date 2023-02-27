@@ -362,6 +362,9 @@ footer {
   background: #111;
   color: #fff;
 }
+.contact .title::before {
+  background: #fff;
+}
 .contact .title::after {
   background: #111;
   content: "Conversa Comigo";
