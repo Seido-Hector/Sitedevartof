@@ -416,8 +416,13 @@ footer {
   background: #833ab4 !important;
 }
 /*  sessão Contato  */
+.contact {
+  background: #111;
+  color: #fff;
+}
 .contact .title::after {
-  content: "Fale conosco";
+  background: #111;
+  content: "Conversa Comigo";
 }
 .contact .contact-content .column {
   width: calc(50% - 30px);
@@ -448,7 +453,7 @@ footer {
   font-weight: 500;
 }
 .contact .contact-content .row .info .sub-title {
-  color: #333;
+  color: #fff;
 }
 .contact .contact-content .row ion-icon {
   font-size: 25px;
